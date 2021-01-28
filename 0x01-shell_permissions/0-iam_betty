@@ -1,0 +1,2 @@
+#!/bin/bash
+awk '{print "holbie-0" -u "$2" "$1}' "betty" | bash
