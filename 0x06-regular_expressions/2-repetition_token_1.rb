@@ -1,2 +1,3 @@
 #!/usr/bin/env ruby
-puts ARGV[0].scan(/hb?tn/).join
+#This script is to find the repetitiones token about a string
+puts ARGV[0].scan(/hb{0,1}tn/).join
